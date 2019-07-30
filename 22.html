@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        ul,ol{
+            list-style: none;
+        }
+        .wrapper{
+            height: 142px;
+            border: 1px solid yellowgreen;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .wrapperin{
+            width: 1080px;
+            height: 142px;
+            background:yellow;
+            display: flex;
+        }
+        
+        .wrapperin>li{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .links{
+            height: 50px;
+            background: gold;
+            display: flex;
+            align-content: center;
+        }
+        .left{
+            width: 50px;
+            height: 50px;
+            background: url("icon-wechat.png")center  center no-repeat;
+            background-size: contain;
+        }
+        .shang{
+            width: 50px;
+            height: 50px;
+            background: url("icon-rp.png")center  center no-repeat;
+            background-size: contain;
+        }
+        .bbq{
+            height: 50px;
+            background: gold;
+            display: flex;
+            align-content: center;
+        }
+        .qq{ 
+            width: 50px;
+            height: 50px;
+            background: url("icon-credit.png")center  center no-repeat;
+            background-size: contain;
+
+        }
+        .mobai{
+            height: 50px;
+            background: gold;
+            display: flex;
+            align-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <ul class="wrapperin">
+            <li>
+                <div class="links">
+                    <div class="left"></div>
+                    <div class="right">
+                        <p>微信小程序</p>
+                        <p>哼哼哼哼哼</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                    <div class="bbq">
+                            <div class="shang"></div>
+                            <div class="xia">
+                                <p>红包车</p>
+                                <p>骑膜拜，啦啦啦</p>
+                            </div>
+                        </div>
+            </li>
+            <li>
+                    <div class="mobai">
+                            <div class="qq"></div>
+                            <div class="ww">
+                                <p>红包车</p>
+                                <p>骑膜拜，啦啦啦</p>
+                            </div>
+                        </div>
+
+            </li>
+
+        </ul>
+    </div>
+</body>
+</html>
+
+

@@ -1,0 +1,101 @@
+.md{
+    margin: 0 aoto;
+    width: 1026px;
+}
+.nav{
+    height: 83px;
+    background: green;
+    font-size: 14px;
+}
+.nav a{
+    color: #2a2a2a;
+}
+.logo{
+    height: 52px;
+    width: 176px;
+    background: pink;
+    float:left;
+    /* 超出隐藏 */
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.navin{
+    /* height: 83px;
+    width: 300px;
+    background: gold; */
+    float:left;
+}
+.navin>li{
+    float:left;
+    height: 83px;
+      line-height: 83px;
+      margin-left: 60px;
+}
+.message{
+    height: 83px;
+    width: 100px;
+    background: lightblue;
+    float: right
+}
+.logo>a{
+    display: block;
+    height: 52px;
+    background: url(../imangs/.logo) center center no-repeat;
+}
+.logo i{
+    margin-left: -999999px;
+}
+.message a{
+    float: left;
+    margin-right: 35px;
+}
+.message .cart{
+    width: 75px;
+    height: 25px;
+    line-height: 25px;
+    background: url(../imangs/.cart) left center
+    no-repeat；
+    /* 不平铺; */
+    text-indent：28px;
+    
+    /* 文字缩进 */
+    margin-top: 29px;
+
+}
+.logoin{
+    margin-top: 32px;
+}
+.regestor{
+    margin-top:32px;
+}
+.bannerin a{
+    display: block;
+    height: 360px;
+    background: url(../imangs/.bannerin)center center no-repeat;
+    background-size: cover;
+}
+。bannerbar{
+    width: 240px;
+    height: 360px;
+    background: rgba(2,0,0,0.2);
+    position:absolute;
+    left:0;
+    top:0;
+}
+.hotbox{
+    color: #2d2d2d;
+    font-size: 16px;
+    line-height: 1;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.hotlists>li{
+    width: 252px;
+    height: 187px;
+    background: darkgreen;
+
+}
+.hotlist>li:nth-child(4){
+    margin: ;
+}
